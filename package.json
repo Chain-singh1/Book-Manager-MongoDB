@@ -1,0 +1,27 @@
+{
+  "name": "book-manager",
+  "version": "1.0.0",
+  "description": "Book management system",
+  "homepage": "https://github.com/Chain-singh1/Book-Manager#readme",
+  "bugs": {
+    "url": "https://github.com/Chain-singh1/Book-Manager/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chain-singh1/Book-Manager.git"
+  },
+  "license": "ISC",
+  "author": "CSM",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
