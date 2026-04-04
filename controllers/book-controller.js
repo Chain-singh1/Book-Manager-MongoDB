@@ -1,5 +1,5 @@
 const {UserModel, BookModel} = require("../modals/index");
-const issuedBook = require("../dto/book-dto.js");
+const IssuedBook = require("../dto/book-dto.js");
 
 exports.getAllBooks = async(req, res) => {
     const books = await BookModel.find();
