@@ -1,7 +1,5 @@
 const express = require("express");
 const {getAllBooks, getSingleBookById, getAllIssuedBooks, addNewBook, updateBookById} = require("../controllers/book-controller.js");
-const {books} = require("../data/books.json");
-const {users} = require("../data/users.json");
 
 const {UserModel, BookModel} = require("../modals/index");
 const router = express.Router();
